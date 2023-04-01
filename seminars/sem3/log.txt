@@ -1,0 +1,52 @@
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:28:04 AM log_demo main
+WARNING: logger off
+мар. 31, 2023 10:28:04 AM log_demo main
+INFO: test
+мар. 31, 2023 10:28:04 AM log_demo main
+WARNING: logsPath
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: element: 
+мар. 31, 2023 10:38:43 AM log_demo main
+WARNING: logger off
+мар. 31, 2023 10:38:43 AM log_demo main
+INFO: test
+мар. 31, 2023 10:38:43 AM log_demo main
+WARNING: logsPath
