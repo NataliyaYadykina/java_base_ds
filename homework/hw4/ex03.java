@@ -30,7 +30,7 @@ import java.util.Scanner;
 public class ex03 {
     public static void main(String[] args) {
         
-        String actions = "+,-,/,*,=,cancel";
+        String actions = "+,-,/,*,cancel";
         String action = "";
         int num = 0;
         Scanner sc = new Scanner(System.in);
@@ -40,9 +40,9 @@ public class ex03 {
         num = sc.nextInt();
         results.addLast(num);
         while (actions.contains(action) && results.size() > 0) {
-            System.out.println("Введите +, -, /, *, = или cancel:");
+            System.out.println("Введите +, -, /, * или cancel:");
             action = sc.next();
-            if (!action.equals("=") && !action.equals("cancel")) {
+            if (!action.equals("cancel")) {
                 System.out.println("Введите число: ");
                 num = sc.nextInt();
             }
@@ -59,21 +59,17 @@ public class ex03 {
                 case "*":
                     results.addLast(results.getLast() * num);
                     break;
-                case "=":
-                    System.out.println(results.getLast());
-                    break;
                 case "cancel":
                     results.removeLast();
-                    if (results.size() > 0) {
-                        System.out.println(results.getLast());
-                    } 
+                    if (results.size() > 0) {System.out.println(results.getLast());} 
                     break;
                 default:
                     System.out.println("Входные данные некорректны, попробуйте снова.");
                     break;
             } 
+            if (results.size() > 0) {System.out.println("Ответ: " + results.getLast());}
         }
-        System.out.println("Журнал пуст! Работа завершена.");
+        System.out.println("Работа завершена.");
         sc.close();
     }
 }
