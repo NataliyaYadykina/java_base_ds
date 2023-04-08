@@ -7,12 +7,8 @@ import java.util.Random;
 public class ex01 {
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<>();
-        int length = 10;
-        list = randomList(list, length);
-        System.out.println("Исходный список: " + list);
-        LinkedList<Integer> newList = new LinkedList<>();
-        newList = reverseList(list);
-        System.out.println(newList);
+        System.out.println(randomList(list, 10));
+        System.out.println(reverseList(list));
     }
 
     static LinkedList<Integer> randomList(LinkedList<Integer> list, Integer length) {
